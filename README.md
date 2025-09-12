@@ -1,6 +1,6 @@
 
 *** W programie MYSQL utwórz pierszą bazę danych ***
-
+```
 CREATE DATABASE Employee;
 
 USE Employee;
@@ -20,3 +20,5 @@ VALUES
 ('Marek', 'Wiśniewski', 'marek.wisniewski@example.com', '2021-03-15');
 
 SELECT * FROM Employees;
+```
+![Uploading image.png…]()
