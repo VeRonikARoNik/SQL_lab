@@ -22,5 +22,6 @@ VALUES
 
 SELECT * FROM Employees;
 ```
-<img width="530" height="304" alt="image" src="https://github.com/user-attachments/assets/4cbf2cbe-c72d-4aaf-bc7f-bb81cc9ba7dc" />
+<img width="1264" height="657" alt="image" src="https://github.com/user-attachments/assets/d48cc3a3-7bd6-4e2f-b182-98dd67d8135c" />
+
 
