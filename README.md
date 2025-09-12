@@ -1,5 +1,6 @@
 
-*** W programie MYSQL utwórz pierszą bazę danych ***
+***W programie MYSQL utwórz pierszą bazę danych***
+
 ```
 CREATE DATABASE Employee;
 
