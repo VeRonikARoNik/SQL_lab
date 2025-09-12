@@ -74,4 +74,46 @@ FROM wyroby
 GROUP BY Rodzaj;
 ```
 
+Dodaniee nowego użytkownika 
+```
+INSERT INTO users (name) 
+VALUES ('Jan Nowak');
 
+```
+
+Usunięcie rekordu 
+```
+DELETE FROM users
+WHERE name = 'Anna Kowalska';
+
+```
+Aktualizacja danych 
+
+```
+UPDATE users
+SET name = 'Daria Kowalska'
+WHERE name = 'Anna Kowalska';
+```
+Dodanie nowej kolumny 
+```
+ALTER TABLE users
+ADD COLUMN email VARCHAR(100);
+
+```
+Uzupełnienie danych
+```
+UPDATE users
+SET email = 'anna.kowalska@example.com'
+WHERE name = 'Anna Kowalska';
+```
+
+Dodanie kolumny odrazu z danymi
+```
+INSERT INTO users (name, email)
+VALUES ('Jan Nowak', 'jan.nowak@example.com');
+```
+Usuwanie kolumny 
+```
+ALTER TABLE users
+DROP COLUMN email;
+```
