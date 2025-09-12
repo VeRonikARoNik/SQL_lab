@@ -25,3 +25,36 @@ SELECT * FROM Employees;
 <img width="1264" height="657" alt="image" src="https://github.com/user-attachments/assets/d48cc3a3-7bd6-4e2f-b182-98dd67d8135c" />
 
 
+***Operacje na gotowej bazie danych***
+
+1. Wykonaj na bazie piekarnia cztery kwerendy:
+
+2. wybierz pola Rodzaj, Nazwa, Gramatura, Cena dla wyrobów z rodzaju „INNE”
+
+3. wypisz rodzaje wyrobów bez powtórzeń, malejąco
+
+4. wybierz pola ID, Nazwa dla wyrobów, których nazwa zawiera „Chałka”
+
+dla każdej wartości Rodzaj policz średnią cenę (zaokrągloną do 2 miejsc) jako kolumnę „Średnia cena”
+
+```
+-- 1
+SELECT Rodzaj, Nazwa, Gramatura, Cena
+FROM wyroby
+WHERE Rodzaj = 'INNE';
+
+-- 2
+SELECT DISTINCT Rodzaj
+FROM wyroby
+ORDER BY Rodzaj DESC;
+
+
+-- 3
+SELECT ID, Nazwa
+FROM wyroby
+WHERE Nazwa LIKE '%Chałka%';
+
+
+```
+
+
