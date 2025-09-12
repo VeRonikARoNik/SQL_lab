@@ -37,6 +37,16 @@ SELECT * FROM Employees;
 
 dla każdej wartości Rodzaj policz średnią cenę (zaokrągloną do 2 miejsc) jako kolumnę „Średnia cena”
 
+Zaimportuj baze danych 
+```
+CREATE DATABASE IF NOT EXISTS piekarnia CHARACTER SET utf8 COLLATE utf8_polish_ci;
+USE piekarnia;
+
+USE piekarnia;
+SHOW TABLES;
+SELECT * FROM wyroby LIMIT 100;
+```
+
 ```
 -- 1
 SELECT Rodzaj, Nazwa, Gramatura, Cena
@@ -55,6 +65,10 @@ FROM wyroby
 WHERE Nazwa LIKE '%Chałka%';
 
 
+-- 4
+SELECT Rodzaj, ROUND(AVG(Cena), 2) AS `Średnia cena`
+FROM wyroby
+GROUP BY Rodzaj;
 ```
 
 
