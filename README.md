@@ -1,3 +1,5 @@
+Materiały uzupełniające:
+https://egzamin-programista.pl/arkusz-praktyczny-inf03-2025-01-12 
 
 ***W programie MYSQL utwórz pierszą bazę danych***
 
@@ -37,7 +39,8 @@ SELECT * FROM Employees;
 
 dla każdej wartości Rodzaj policz średnią cenę (zaokrągloną do 2 miejsc) jako kolumnę „Średnia cena”
 
-**Zaimportuj baze danych **
+**Zaimportuj baze danych**
+
 ```
 CREATE DATABASE IF NOT EXISTS piekarnia CHARACTER SET utf8 COLLATE utf8_polish_ci;
 USE piekarnia;
