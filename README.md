@@ -137,3 +137,23 @@ DROP COLUMN email;
 *Zapytanie 4: wybierające jedynie nazwę, cenę i datę dodania nagród, które zostały dodane w sierpniu 2021 roku. Wyniki powinny być posortowane rosnąco według daty*
 
 https://egzamin-programista.pl/arkusz-praktyczny-inf03-2025-01-11
+
+Realizacja poleceń:
+
+SELECT nazwa, opis, cena
+FROM nagrody
+ORDER BY RAND()
+LIMIT 5;
+
+SELECT *
+FROM nagrody
+WHERE cena BETWEEN 100 AND 1000
+  AND ilosc = 2;
+DELETE FROM nagrody
+WHERE cena IS NULL OR cena = 0;
+
+SELECT nazwa, cena, data_dodania
+FROM nagrody
+WHERE data_dodania >= '2021-08-01' AND data_dodania < '2021-09-01'
+ORDER BY data_dodania ASC;
+
