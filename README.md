@@ -294,6 +294,11 @@ Przypomnienie jak dodać baze danych
 
 <img width="1209" height="709" alt="image" src="https://github.com/user-attachments/assets/760dd22a-8ee2-45eb-b31d-d79890923dd4" />
 
+***Krok 5 wpisujemy zapytanie 1***
+
+<img width="883" height="673" alt="image" src="https://github.com/user-attachments/assets/afa159cf-f555-4b17-ac02-15af6bcba1b5" />
+
+
 ![Uploading image.png…]()
 
 
