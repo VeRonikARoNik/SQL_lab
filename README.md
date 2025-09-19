@@ -139,7 +139,7 @@ DROP COLUMN email;
 https://egzamin-programista.pl/arkusz-praktyczny-inf03-2025-01-11
 
 Realizacja poleceń:
-
+```
 SELECT nazwa, opis, cena
 FROM nagrody
 ORDER BY RAND()
@@ -157,3 +157,4 @@ FROM nagrody
 WHERE data_dodania >= '2021-08-01' AND data_dodania < '2021-09-01'
 ORDER BY data_dodania ASC;
 
+```
