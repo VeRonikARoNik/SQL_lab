@@ -135,3 +135,5 @@ DROP COLUMN email;
 *Zapytanie 3: usuwające te rekordy, w których cena nie została wpisana lub wynosi 0 zł*
 
 *Zapytanie 4: wybierające jedynie nazwę, cenę i datę dodania nagród, które zostały dodane w sierpniu 2021 roku. Wyniki powinny być posortowane rosnąco według daty*
+
+https://egzamin-programista.pl/arkusz-praktyczny-inf03-2025-01-11
