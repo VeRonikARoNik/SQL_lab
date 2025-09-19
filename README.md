@@ -128,7 +128,7 @@ DROP COLUMN email;
 *Wykonaj zrzut ekranu po imporcie. Zapisz zrzut w formacie PNG pod nazwą import. Nie kadruj zrzutu. Powinien on obejmować cały ekran monitora, z widocznym paskiem zadań. Na zrzucie powinny być widoczne elementy wskazujące na poprawnie wykonany import tabel*
 *Wykonaj zapytania SQL działające na bazie konkurs. Zapytania zapisz w pliku kwerendy.txt. Wykonaj zrzuty ekranu przedstawiające wyniki działania kwerend. Zrzuty zapisz w formacie PNG i nadaj im nazwy kw1, kw2, kw3, kw4. Zrzuty powinny obejmować cały ekran monitora z widocznym paskiem zadań*
 
--Zapytanie 1: wybierające losowo dokładnie pięć rekordów z tabeli nagrody zawierających jedynie pola nazwa, opis i cena
--Zapytanie 2: wybierające wszystkie pola z tabeli nagrody, dla których cena mieści się w przedziale <100, 1000>, oraz których ilość jest równa 2 sztuki
--Zapytanie 3: usuwające te rekordy, w których cena nie została wpisana lub wynosi 0 zł
--Zapytanie 4: wybierające jedynie nazwę, cenę i datę dodania nagród, które zostały dodane w sierpniu 2021 roku. Wyniki powinny być posortowane rosnąco według daty
+*Zapytanie 1: wybierające losowo dokładnie pięć rekordów z tabeli nagrody zawierających jedynie pola nazwa, opis i cena*
+*Zapytanie 2: wybierające wszystkie pola z tabeli nagrody, dla których cena mieści się w przedziale <100, 1000>, oraz których ilość jest równa 2 sztuki*
+*Zapytanie 3: usuwające te rekordy, w których cena nie została wpisana lub wynosi 0 zł*
+*Zapytanie 4: wybierające jedynie nazwę, cenę i datę dodania nagród, które zostały dodane w sierpniu 2021 roku. Wyniki powinny być posortowane rosnąco według daty*
