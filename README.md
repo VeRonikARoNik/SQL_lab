@@ -275,3 +275,25 @@ INSERT INTO osoby (nazwisko, imie, funkcja, email)
 VALUES ('M.', 'Miłosz', 'uczestnik', 'm.milosz@zdobywcyxyz.pl');
 
 ```
+
+Przypomnienie jak dodać baze danych 
+
+***Krok 1 stwórz baze***
+
+<img width="333" height="144" alt="image" src="https://github.com/user-attachments/assets/0c0b17e9-ef85-4aea-a41e-b12578b0d9f5" />
+
+***Krok 2 zaimportuj  pobraną baze danych***
+
+<img width="532" height="396" alt="image" src="https://github.com/user-attachments/assets/582b7b2e-0a9a-4870-b5b4-ff2b12ca2253" />
+
+*** Krok 3***
+
+<img width="203" height="495" alt="Przechwytywanie" src="https://github.com/user-attachments/assets/8a5d6e51-8867-453e-9d19-346ec751f3c2" />
+
+***Krok 4***
+
+<img width="1209" height="709" alt="image" src="https://github.com/user-attachments/assets/760dd22a-8ee2-45eb-b31d-d79890923dd4" />
+
+![Uploading image.png…]()
+
+
