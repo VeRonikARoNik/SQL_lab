@@ -178,6 +178,7 @@ ORDER BY data_dodania ASC;
 
 
 **Zadanie 2**
+
 *Utwórz bazę danych o nazwie szachy, z zestawem polskich znaków (np. utf8_unicode_ci)*
 
 *Z rozpakowanego archiwum zaimportuj tabelę z pliku szachy.sql do utworzonej  bazy*
