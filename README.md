@@ -163,6 +163,8 @@ SELECT *
 FROM nagrody
 WHERE cena BETWEEN 100 AND 1000
   AND ilosc = 2;
+
+
 DELETE FROM nagrody
 WHERE cena IS NULL OR cena = 0;
 
