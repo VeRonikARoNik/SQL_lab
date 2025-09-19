@@ -148,6 +148,12 @@ CREATE DATABASE konkurs
 
 USE konkurs;
 
+USE konkurs;
+SHOW TABLES;
+SELECT COUNT(*) FROM nagrody;
+DESCRIBE nagrody;
+
+
 SELECT nazwa, opis, cena
 FROM nagrody
 ORDER BY RAND()
