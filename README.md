@@ -239,5 +239,21 @@ WHERE tytul IS NOT NULL AND tytul <> '';
 https://egzamin-programista.pl/arkusz-praktyczny-inf03-2025-01-09
 
 ```
+CREATE DATABASE IF NOT EXISTS zdobywcy CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+USE zdobywcy;
+
+SELECT pasmo, nazwa, wysokosc
+FROM gory
+ORDER BY wysokosc DESC
+LIMIT 10;
+
+SELECT nazwisko, imie, funkcja, email
+FROM osoby;
+
+INSERT INTO osiagniecia (id_gory, id_osoby, data)
+VALUES (182, 4, '2024-06-08');
+
+INSERT INTO osoby (nazwisko, imie, funkcja, email)
+VALUES ('M.', 'Miłosz', 'uczestnik', 'm.milosz@zdobywcyxyz.pl');
 
 ```
