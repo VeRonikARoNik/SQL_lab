@@ -121,6 +121,8 @@ DROP COLUMN email;
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 19.09.2025
 
+**Zadanie 1**
+
 *Pobierz bazę danych i zaimportuj do MYSQL*
 *Utwórz bazę danych o nazwie konkurs, z zestawem polskich znaków (np. utf8_unicode_ci)*
 *Z rozpakowanego archiwum zaimportuj tabelę z pliku baza.sql do utworzonej bazy*
@@ -156,5 +158,64 @@ SELECT nazwa, cena, data_dodania
 FROM nagrody
 WHERE data_dodania >= '2021-08-01' AND data_dodania < '2021-09-01'
 ORDER BY data_dodania ASC;
+
+```
+
+
+
+
+
+**Zadanie 2**
+*Utwórz bazę danych o nazwie szachy, z zestawem polskich znaków (np. utf8_unicode_ci)*
+
+*Z rozpakowanego archiwum zaimportuj tabelę z pliku szachy.sql do utworzonej  bazy*
+
+*Wykonaj zrzut ekranu po imporcie. Zapisz zrzut w formacie PNG pod nazwą import. Nie kadruj zrzutu. Powinien on obejmować cały ekran monitora, z widocznym paskiem zadań. Na zrzucie powinny być widoczne elementy wskazujące na poprawnie wykonany import tabel*
+
+*Wykonaj zapytania SQL działające na bazie szachy. Zapytania zapisz w pliku kwerendy.txt. Wykonaj zrzuty ekranu przedstawiające wyniki działania kwerend. Zrzuty zapisz w formacie PNG i nadaj im nazwy kw1, kw2, kw3, kw4. Zrzuty powinny obejmować cały ekran monitora z widocznym paskiem zadań*
+
+*Zapytanie 1: wybierające jedynie pseudonim, tytuł, ranking i klasę dla rankingów większych od 2787, posortowane malejąco według rankingu*
+
+*Zapytanie 2: wybierające losowo dokładnie dwa rekordy złożone z pól pseudonim i klasa z tabeli zawodnicy*
+
+*Zapytanie 3: aktualizujące dane w kolumnie klasa. Klasa „4A” jest aktualizowana do „5A”*
+
+*Zapytanie 4: wybierające dla zawodników z niepustym tytułem jedynie pseudonim i datę zdobycia oraz obliczające ile minęło dni od daty zdobycia tytułu do dnia dzisiejszego. Obliczona liczba dni powinna być zapisana pod nazwą kolumny (aliasem) “dni”.*
+
+https://egzamin-programista.pl/arkusz-praktyczny-inf03-2025-01-10
+
+```
+SELECT pseudonim, tytul, ranking, klasa
+FROM zawodnicy
+WHERE ranking > 2787
+ORDER BY ranking DESC;
+
+
+
+SELECT pseudonim, klasa
+FROM zawodnicy
+ORDER BY RANDOM()
+LIMIT 2;
+
+SELECT pseudonim, klasa
+FROM zawodnicy
+ORDER BY RAND()
+LIMIT 2;
+
+
+
+UPDATE zawodnicy
+SET klasa = '5A'
+WHERE klasa = '4A';
+
+
+SELECT pseudonim, data_zdobycia, (CURRENT_DATE - data_zdobycia) AS dni
+FROM zawodnicy
+WHERE tytul IS NOT NULL AND tytul <> '';
+
+
+SELECT pseudonim, data_zdobycia, DATEDIFF(CURDATE(), data_zdobycia) AS dni
+FROM zawodnicy
+WHERE tytul IS NOT NULL AND tytul <> '';
 
 ```
