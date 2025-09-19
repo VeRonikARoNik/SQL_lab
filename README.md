@@ -219,3 +219,25 @@ FROM zawodnicy
 WHERE tytul IS NOT NULL AND tytul <> '';
 
 ```
+
+**Zadanie 3**
+*Utwórz bazę danych o nazwie zdobywcy, z zestawem polskich znaków (np. utf8_unicode_ci)*
+
+*Z rozpakowanego archiwum zaimportuj tabele z pliku baza.sql do utworzonej  bazy*
+
+*Wykonaj zrzut ekranu po imporcie. Zapisz zrzut w formacie PNG pod nazwą import. Nie kadruj zrzutu. Powinien on obejmować cały ekran monitora, z widocznym paskiem zadań. Na zrzucie powinny być widoczne elementy wskazujące na poprawnie wykonany import tabel*
+
+*Wykonaj zapytania SQL działające na bazie zdobywcy. Zapytania zapisz w pliku kwerendy.txt. Wykonaj zrzuty ekranu przedstawiające wyniki działania kwerend. Zrzuty zapisz w formacie PNG i nadaj im nazwy kw1, kw2, kw3, kw4. Zrzuty powinny obejmować cały ekran monitora z widocznym paskiem zadań*
+
+*Zapytanie 1: wybierające jedynie pasmo, nazwę góry i jej wysokość z tabeli gory i wyświetlające pierwszych 10 rekordów posortowanych malejąco według wysokości*
+
+*Zapytanie 2: wybierające jedynie nazwisko, imię, funkcję i email z tabeli osoby*
+
+*Zapytanie 3: wstawiające osiągnięcie w postaci zdobycia góry „Łysica - Skała Agaty” (id=182) przez uczestnika B. Urszula (id=4) w dniu 2024-06-08, klucz główny uzyskiwany automatycznie*
+
+*Zapytanie 4: wstawiające nową osobę: M., Miłosz, uczestnik, m.milosz@zdobywcyxyz.pl do tabeli osoby, klucz główny uzyskiwany automatycznie*
+https://egzamin-programista.pl/arkusz-praktyczny-inf03-2025-01-09
+
+```
+
+```
