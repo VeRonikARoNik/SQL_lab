@@ -142,6 +142,12 @@ https://egzamin-programista.pl/arkusz-praktyczny-inf03-2025-01-11
 
 Realizacja poleceń:
 ```
+CREATE DATABASE konkurs
+  CHARACTER SET utf8mb4
+  COLLATE utf8mb4_unicode_ci;
+
+USE konkurs;
+
 SELECT nazwa, opis, cena
 FROM nagrody
 ORDER BY RAND()
@@ -185,6 +191,11 @@ ORDER BY data_dodania ASC;
 https://egzamin-programista.pl/arkusz-praktyczny-inf03-2025-01-10
 
 ```
+CREATE DATABASE  shachy
+  CHARACTER SET utf8mb4
+  COLLATE utf8mb4_unicode_ci;
+
+USE shachy;
 SELECT pseudonim, tytul, ranking, klasa
 FROM zawodnicy
 WHERE ranking > 2787
