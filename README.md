@@ -191,11 +191,11 @@ ORDER BY data_dodania ASC;
 https://egzamin-programista.pl/arkusz-praktyczny-inf03-2025-01-10
 
 ```
-CREATE DATABASE  shachy
+CREATE DATABASE  szachy
   CHARACTER SET utf8mb4
   COLLATE utf8mb4_unicode_ci;
 
-USE shachy;
+USE szachy;
 SELECT pseudonim, tytul, ranking, klasa
 FROM zawodnicy
 WHERE ranking > 2787
