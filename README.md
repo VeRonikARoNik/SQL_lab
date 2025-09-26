@@ -67,7 +67,6 @@ SELECT ID, Nazwa
 FROM wyroby
 WHERE Nazwa LIKE '%Chałka%';
 
-
 -- 4
 SELECT Rodzaj, ROUND(AVG(Cena), 2) AS `Średnia cena`
 FROM wyroby
@@ -301,6 +300,58 @@ Przypomnienie jak dodać baze danych
 <img width="883" height="673" alt="image" src="https://github.com/user-attachments/assets/afa159cf-f555-4b17-ac02-15af6bcba1b5" />
 
 
-![Uploading image.png…]()
+<img width="885" height="304" alt="image" src="https://github.com/user-attachments/assets/5c6192cd-3983-42f8-be40-9ad3f2bcf615" />
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+***26.09.2025***
+
+**Zadanie 1. Mieszalnia farb**
+
+https://egzamin-programista.pl/arkusz-praktyczny-inf03-2025-01-08
+
+<img width="911" height="237" alt="image" src="https://github.com/user-attachments/assets/e8601e06-0056-4793-a260-b8baf6544f2b" />
+
+
+Utwórz bazę danych o nazwie mieszalnia, z zestawem polskich znaków (np. utf8_unicode_ci)
+
+Do utworzonej  bazy zaimportuj tabele z pliku mieszalnia.sql z rozpakowanego archiwum
+
+Wykonaj zrzut ekranu po imporcie. Zapisz zrzut w formacie JPEG pod nazwą import. Nie kadruj zrzutu. Powinien on obejmować cały ekran monitora, z widocznym paskiem zadań. Na zrzucie powinny być widoczne elementy wskazujące na poprawnie wykonany import tabel
+
+Wykonaj zapytania SQL działające na bazie mieszalnia. 
+
+Zapytania zapisz w pliku kwerendy.txt. Wykonaj zrzuty ekranu przedstawiające wyniki działania kwerend. Zrzuty zapisz w formacie PNG i nadaj im nazwy kw1, kw2, kw3, kw4. Zrzuty powinny obejmować cały ekran monitora, z widocznym paskiem zadań
+
+Zapytanie 1: zliczające liczbę klientów mieszalni farb
+
+Zapytanie 2: wybierające jedynie nazwiska, imiona klientów oraz odpowiadające im numery zamówień (pole id), kody kolorów, pojemności i daty odbioru zamówień posortowane rosnąco po dacie odbioru. Należy posłużyć się relacją
+
+Zapytanie 3: wybierające jedynie nazwiska, imiona klientów oraz odpowiadające im numery zamówień (pole id), kody kolorów, pojemności i daty odbioru zamówień posortowane rosnąco po dacie odbioru, jedynie dla zamówień, w których data odbioru jest od 5 listopada do 7 listopada 2021 roku. Należy posłużyć się relacją
+
+Zapytanie 4: wybierające jedynie imiona i nazwiska kobiet, które są klientami mieszalni farb
+
+
+Zadanie 2 Wyszukiwanie miast
+
+https://egzamin-programista.pl/arkusz-praktyczny-inf03-2025-01-07
+
+<img width="884" height="251" alt="image" src="https://github.com/user-attachments/assets/f9766ab2-cc92-4657-95c7-8546ff098276" />
+ 
+Utwórz bazę danych o nazwie wykaz, z zestawem polskich znaków (np. utf8_unicode_ci)
+
+Do utworzonej bazy zaimportuj tabele z pliku wykaz.sql z rozpakowanego archiwum
+
+Wykonaj zrzut ekranu po imporcie. Zapisz zrzut w formacie PNG pod nazwą import. Nie kadruj zrzutu. Powinien on obejmować cały ekran monitora, z widocznym paskiem zadań. Na zrzucie powinny być widoczne elementy wskazujące na poprawnie wykonany import tabel
+
+Wykonaj zapytania SQL działające na bazie wykaz. Zapytania zapisz w pliku kwerendy.txt. Wykonaj zrzuty ekranu przedstawiające wyniki działania kwerend. Zrzuty zapisz w formacie PNG i nadaj im nazwy kw1, kw2, kw3, kw4. Zrzuty powinny obejmować cały ekran monitora, z widocznym paskiem zadań
+
+Zapytanie 1: wybierające jedynie nazwy województw, wszystkie litery w nazwach województw są zamienione na małe
+
+Zapytanie 2: obliczające liczbę miast dla których id_wojewodztwa jest równe jeden
+
+Zapytanie 3: wybierające jedynie nazwy miast zaczynające się od cząstki „Lu” i odpowiadające im nazwy województw, posortowane alfabetycznie po nazwie miasta. Należy posłużyć się relacją
+
+Zapytanie 4: wybierające jedynie nazwy województw i odpowiadającą im liczbę miast, które się w nich znajdują. Kolumna z liczbą miast powinna mieć nadany alias „Liczba miast”. Należy posłużyć się relacją
 
 
