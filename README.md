@@ -29,15 +29,15 @@ SELECT * FROM Employees;
 
 ***Operacje na gotowej bazie danych***
 
-1. Wykonaj na bazie piekarnia cztery kwerendy:
+ Wykonaj na bazie piekarnia cztery kwerendy:
 
-2. wybierz pola Rodzaj, Nazwa, Gramatura, Cena dla wyrobów z rodzaju „INNE”
+1. wybierz pola Rodzaj, Nazwa, Gramatura, Cena dla wyrobów z rodzaju „INNE”
 
-3. wypisz rodzaje wyrobów bez powtórzeń, malejąco
+2. wypisz rodzaje wyrobów bez powtórzeń, malejąco
 
-4. wybierz pola ID, Nazwa dla wyrobów, których nazwa zawiera „Chałka”
+3. wybierz pola ID, Nazwa dla wyrobów, których nazwa zawiera „Chałka”
 
-dla każdej wartości Rodzaj policz średnią cenę (zaokrągloną do 2 miejsc) jako kolumnę „Średnia cena”
+4. dla każdej wartości Rodzaj policz średnią cenę (zaokrągloną do 2 miejsc) jako kolumnę „Średnia cena”
 
 **Zaimportuj baze danych**
 
