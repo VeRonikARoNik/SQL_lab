@@ -332,7 +332,7 @@ Zapytanie 3: wybierające jedynie nazwiska, imiona klientów oraz odpowiadające
 Zapytanie 4: wybierające jedynie imiona i nazwiska kobiet, które są klientami mieszalni farb
 
 
-Zadanie 2 Wyszukiwanie miast
+**Zadanie 2 Wyszukiwanie miast**
 
 https://egzamin-programista.pl/arkusz-praktyczny-inf03-2025-01-07
 
