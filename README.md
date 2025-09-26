@@ -367,6 +367,41 @@ wykonanezadania100@gmail.com
 
 podpisz dokument Imię Nazwisko data
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+```
+SELECT COUNT(*) AS liczba_klientow
+FROM klienci;
 
+SELECT k.Nazwisko, k.Imie, z.id, z.kod_koloru, z.pojemnosc, z.data_odbioru
+FROM klienci k
+JOIN zamowienia z ON k.Id = z.id_klienta
+ORDER BY z.data_odbioru ASC;
+
+SELECT k.Nazwisko, k.Imie, z.id, z.kod_koloru, z.pojemnosc, z.data_odbioru
+FROM klienci k
+JOIN zamowienia z ON k.Id = z.id_klienta
+WHERE z.data_odbioru BETWEEN '2021-11-05' AND '2021-11-07'
+ORDER BY z.data_odbioru ASC;
+
+SELECT Imie, Nazwisko
+FROM klienci
+WHERE Plec = 'k';
+```
+rosnąco → ASC (ang. ascending)
+
+malejąco → DESC (ang. descending)
+```
+-- Posortuj klientów rosnąco wg nazwiska
+SELECT * FROM klienci
+ORDER BY Nazwisko ASC;
+
+-- Posortuj klientów malejąco wg nazwiska
+SELECT * FROM klienci
+ORDER BY Nazwisko DESC;
+
+-- Posortuj zamówienia: najpierw najnowsze daty
+SELECT * FROM zamowienia
+ORDER BY data_odbioru DESC;
+```
 
 
