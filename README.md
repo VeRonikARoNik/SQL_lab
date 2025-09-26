@@ -331,6 +331,7 @@ Zapytanie 3: wybierające jedynie nazwiska, imiona klientów oraz odpowiadające
 
 Zapytanie 4: wybierające jedynie imiona i nazwiska kobiet, które są klientami mieszalni farb
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Zadanie 2 Wyszukiwanie miast**
 
@@ -353,5 +354,19 @@ Zapytanie 2: obliczające liczbę miast dla których id_wojewodztwa jest równe 
 Zapytanie 3: wybierające jedynie nazwy miast zaczynające się od cząstki „Lu” i odpowiadające im nazwy województw, posortowane alfabetycznie po nazwie miasta. Należy posłużyć się relacją
 
 Zapytanie 4: wybierające jedynie nazwy województw i odpowiadającą im liczbę miast, które się w nich znajdują. Kolumna z liczbą miast powinna mieć nadany alias „Liczba miast”. Należy posłużyć się relacją
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Po wykonaniu zadań prześlij dokument lub .pdf 
+
+z kodem i zrzutem ekranu wykonanych zadań 
+
+na maila: 
+
+wykonanezadania100@gmail.com
+
+podpisz dokument Imię Nazwisko data
+
+
 
 
