@@ -404,4 +404,27 @@ SELECT * FROM zamowienia
 ORDER BY data_odbioru DESC;
 ```
 
+----
 
+https://egzamin-programista.pl/arkusz-praktyczny-inf03-2025-01-04/
+https://egzamin-programista.pl/arkusz-praktyczny-inf03-2025-01-05/
+
+Arkusz 4 
+```
+SELECT model FROM produkt;
+SELECT model, nazwa, cena, nazwa_pliku FROM buty JOIN produkt
+USING(model);
+SELECT nazwa, cena, kolor, kod_produktu, material, nazwa_pliku FROM
+buty JOIN produkt USING(model) WHERE model = "P-59-03";
+INSERT INTO kategorie VALUES (NULL, 'Sandały');
+```
+Arkusz 5 
+```
+SELECT Data, Temat FROM szkolenia ORDER BY Data ASC;
+SELECT Data, Temat, Nazwisko, Imie FROM szkolenia JOIN trenerzy ON
+trenerzy.Id = szkolenia.Id_trenera;
+SELECT Imie, Nazwisko, COUNT(*) FROM trenerzy JOIN szkolenia ON
+trenerzy.Id = Id_trenera GROUP BY trenerzy.Id;
+ALTER TABLE zapisy CHANGE COLUMN Id_klienta Id_sluchacza INT;
+```
+----
