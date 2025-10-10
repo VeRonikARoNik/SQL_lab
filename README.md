@@ -450,3 +450,15 @@ SELECT nazwisko, COUNT(zadania.id_zadania) AS "Liczba zadań" FROM
 osoby JOIN zadania ON id_osoba = osoba_id GROUP BY nazwisko;
 
 ALTER TABLE osoby DROP COLUMN telefon;
+
+
+SELECT imie, pensja FROM pracownicy WHERE staz < 5;
+
+SELECT AVG(pensja), nazwa FROM pracownicy JOIN stanowiska ON
+stanowiska_id = stanowiska.id GROUP BY nazwa;
+
+SELECT imie, nazwisko, pensja FROM pracownicy WHERE pensja =
+(SELECT MAX(pensja) FROM pracownicy); dopuszcza się również zastosowanie
+MAX(pensja) lub LIMIT 1
+
+UPDATE pracownicy SET staz = staz + 1;
