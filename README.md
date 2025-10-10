@@ -430,3 +430,23 @@ trenerzy.Id = Id_trenera GROUP BY trenerzy.Id;
 ALTER TABLE zapisy CHANGE COLUMN Id_klienta Id_sluchacza INT;
 ```
 ----
+https://egzamin-programista.pl/arkusz-praktyczny-inf03-2025-01-02/
+
+https://egzamin-programista.pl/arkusz-praktyczny-inf03-2024-06-12/
+
+
+
+
+
+
+
+
+
+SELECT imie, nazwisko FROM osoby WHERE imie LIKE "A%";
+SELECT zadanie, data FROM zadania WHERE zadanie LIKE "%mebli%"
+ORDER BY data; 
+
+SELECT nazwisko, COUNT(zadania.id_zadania) AS "Liczba zadań" FROM
+osoby JOIN zadania ON id_osoba = osoba_id GROUP BY nazwisko;
+
+ALTER TABLE osoby DROP COLUMN telefon;
