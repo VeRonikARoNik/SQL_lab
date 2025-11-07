@@ -466,3 +466,9 @@ MAX(pensja) lub LIMIT 1
 
 UPDATE pracownicy SET staz = staz + 1;
 ```
+
+
+<img width="1247" height="664" alt="image" src="https://github.com/user-attachments/assets/bf6dd65f-5e9c-4b83-a30f-894c43c61943" />
+
+<img width="1253" height="644" alt="image" src="https://github.com/user-attachments/assets/5ef6d025-03fd-46cd-9cbe-246e5fea8f9d" />
+
